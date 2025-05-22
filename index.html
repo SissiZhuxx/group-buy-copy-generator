@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>团购团长促单文案生成器</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>团购团长促单文案生成器</h1>
+        
+        <!-- 输入区域 -->
+        <div class="input-section">
+            <h2>原始文案</h2>
+            <textarea id="originalText" placeholder="请在这里输入包含【品牌链接】的原始文案..."></textarea>
+        </div>
+
+        <!-- 按钮区域 -->
+        <div class="button-section">
+            <button id="generateBtn" class="btn">生成文案</button>
+            <button id="copyBtn" class="btn" disabled>复制文案</button>
+        </div>
+
+        <!-- 输出区域 -->
+        <div class="output-section">
+            <h2>生成结果</h2>
+            <div id="resultText" class="result-box"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
